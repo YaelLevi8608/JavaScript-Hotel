@@ -1,0 +1,163 @@
+body {
+  direction: rtl;
+  text-align: center;
+  background-size: cover;
+  display: grid;  
+  grid-template-columns: 20% 50% 30%;
+}
+#my0 ,#my2{
+background-color: #ffffff;
+
+}
+#my1{
+  background-color: #212E3A;
+}
+a#my {
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+color: #212E3A;
+  margin-left: 1420px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+}
+#sof{
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+color: #212E3A;
+  margin-right: 280px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+
+}
+.style {
+  font-size: 30px;
+  color: white;
+  width: 47%;
+  height: 200px;
+  border-radius: 20px;
+  /* background-image: url(img/9.png); */
+  margin-top: 10px;
+  font-family: Arial;
+  margin: 20px;
+  background: linear-gradient(to bottom, #212E3A 30%, white, #212E3A);
+
+}
+
+.style2 {
+  font-size: 30px;
+  color: white;
+  width: 47%;
+  height: 200px;
+  border-radius: 20px;
+  /* background-image: url(img/זוגי.png); */
+  margin-top: 10px;
+  font-family: Arial;
+  margin: 20px;
+  background: linear-gradient(to bottom, #212E3A 30%, white, #F07066);
+}
+
+.style3 {
+  font-size: 30px;
+  color: white;
+  width: 47%;
+  height: 200px;
+  border-radius: 20px;
+  /* background-image: url(img/uuyjryuj.png); */
+  background-size: cover;
+  margin-top: 10px;
+  font-family: Arial;
+  margin: 20px;
+  background: linear-gradient(to bottom, #F07066 10%, white 30%, #F07066);
+}
+
+.style4 {
+  font-size: 30px;
+  color: #212E3A;
+  width: 80%;
+  height: 200px;
+  border-radius: 20px;
+  /* background-image: url(img/זוגי.png); */
+  margin-top: 10px;
+  font-family: Arial;
+  margin: 20px;
+  background-color: white;
+  margin-right: 70px;
+}
+
+#room {
+  margin: 10px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: wrap;
+
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+h4 {
+  margin: 2px;
+}
+
+h5 {
+  margin: 2px;
+  margin-top: 20px;
+}
+
+h6 {
+  margin: 0px;
+  margin-bottom: 18px;
+}
+
+button {
+
+  box-shadow: 0px 10px 14px -7px #212E3A;
+  background-color: #212E3A;
+  border-radius: 4px;
+  border: 1px solid#212E3A;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+button:hover {
+  background: linear-gradient(to bottom, #212E3A 5%, #212E3A 100%);
+  background-color: #212E3A;
+}
+
+#p {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+
+
+
+h2 {
+  text-align: center;
+  font-family: Arial;
+}
+

@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+ 
+}
+h1{
+  font-family:Arial;
+  text-align: center;
+}
+/* Header */
+.header {
+  padding: 80px;
+  text-align: center;
+  font-size: 2rem;
+  color:white;
+  background-image: url(img/צילום\ מסך\ 2022-08-01\ 015144.png) ;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #212E3A;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;}
+  @keyframes example {
+    0% {background-color:  #F07066}
+    50% {background-color: #212E3A;}
+    100% {background-color: #F07066;}
+  }
+
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f69892;
+  color:white;
+}
+
+
+
+
+h2{
+  text-align: center;
+  font-family: Arial;
+}
+#odot{
+  margin: 50px;
+  margin-top: 10px;
+  margin-right: 150px;
+  text-align: center;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+
+}
+#odot ul{
+ padding-left:  120px;
+ padding-top: 120px;
+ padding-right: 120px;
+}
+#pool-spa{
+margin: 7px;
+flex: auto;
+border-radius: 40px;
+display: inline-table;
+width: 250px;
+height:250px;
+background-image: url(img/HP\ Recipe\ content\ teaser3_IL\ desktop_728_600.webp);
+background-size: cover;}
+
+
+#pool-spa p{
+ opacity:0%;
+ margin: 0px;
+}
+#pool-spa p:hover{
+  opacity:100%;
+  color:black;
+  
+}
+
+
+#pool-spa ul{
+
+color:white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#rooms{
+border-radius: 40px;
+  margin: 7px;
+  flex: auto;
+  display: inline-table;
+  width: 250px;
+  height:250px;
+  background-image: url(img/tel-aviv1100x520hotelrestaurant1.jpg);
+background-size: cover;}
+
+  
+  #rooms p{
+     opacity:0%;
+     margin: 0px;
+  }
+  #rooms p:hover{
+      opacity:100%;
+      color: white;
+     
+  }
+  
+  
+  #rooms ul{
+      color:white;
+      font-size: 40px;
+      text-align: center;
+      
+  }
+  #kolinaries{
+    border-radius: 40px;
+      margin: 7px;
+      flex: auto;
+      display: inline-table;
+      width: 250px;
+      height:250px;
+      background-image: url(img/405aa050-3b2d-11ec-8f47-5e78ca5f91f9_karela_00165.webp);
+    background-size: cover;}
+      
+      #kolinaries p{
+         opacity:0%;
+         margin: 0px;
+      }
+      #kolinaries p:hover{
+          opacity:100%;
+          color: white;
+          
+      }
+      
+      
+      #kolinaries ul{
+  
+        color:white;
+          font-size: 40px;
+          text-align: center;
+      }
+
+
+form {
+  display: grid;
+  align-items: center;
+}
+
+table {
+  position: relative;
+  margin: auto;
+  text-align: right;
+  font-family: "Fb Rotem", "Calibri";
+  font-size: 6rem;
+}
+
+a {
+  color: burlywood;
+  text-decoration: none;
+}
+
+tr {
+
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+td {
+  font-size: medium;
+  padding-top: 3px;
+  font-size: 1rem;
+}
+
+th {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+#pbuild {
+  color: white;
+  font-size: medium;
+  background-color: black;
+}
+
+.form {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #ffffff;
+  font-size: 20px;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  display: inline-table;
+}
+
+.input:focus {
+  border: none;
+  border-bottom: 3px solid black;
+display: inline-block;
+}
+
+.personal-details {
+  background-color:#F07066;
+  padding: 2%;
+}
+
+.address {
+  background-color:#F07066;
+  padding: 2%;
+
+}
+
+.card-details {
+  background-color:#F07066;
+  padding: 2%;
+
+}
+
+.tickets {
+  background-color:#F07066;
+  padding: 2%;
+  display: inline-table;
+
+}
+/*submit botton*/
+.myButton {
+  box-shadow: 0px 10px 14px -7px #212E3A;
+  background: linear-gradient(to bottom, #212E3A 5%, #212E3A 100%);
+  background-color:#212E3A;
+  border-radius: 4px;
+  border: 1px solid#212E3A;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #212E3A 5%, #212E3A 100%);
+  background-color:#212E3A;
+}
+
+
+.place-order {
+  margin: 5% auto 10% auto;
+  width: 10%;
+  padding: 3px;
+  text-align: center;
+  display: block;
+}
+
+/* Footer */
+footer {
+  margin-top: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #333;
+  height: 100%;
+  color: burlywood;
+}
+.something{
+  display: flex;
+  flex-direction: row;
+}
+table {
+  position: relative;
+  margin: auto;
+  text-align: right;
+  font-family: "Fb Rotem", "Calibri";
+  font-size: 6rem;
+  border-spacing: 1rem;
+}
+
+footer {
+  margin-top: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #212E3A;
+  height: 100%;
+  color:#F07066;
+  list-style-type: none;
+}
+footer  a{
+ 
+  align-items: center;
+  color:#F07066;
+  list-style-type: none;
+}
+.something{
+  display: flex;
+  flex-direction: row;
+}
+table {
+  position: relative;
+  margin: auto;
+  list-style-type: none;
+  text-align: right;
+  font-family: "Fb Rotem", "Calibri";
+  font-size: 6rem;
+  border-spacing: 1rem;
+}
+
+.footer a {
+  color: white;
+  font-family: Arial;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer a:hover {
+ text-decoration:double
+}
+
+tr {
+
+  text-decoration: none;
+  margin-right: 2px;
+}
+
+td {
+  font-size: medium;
+  padding-top: 3px;
+  font-size: 1rem;
+}
+
+th {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .something{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 1150px) {
+  .form{
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}

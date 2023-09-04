@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="orderooms.css">
+  <link href="icons/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+
+</head>
+
+<body>
+  <header>
+    <div class="header" id="header">
+
+      <h1>The white house</h1>
+
+    </div>
+  </header>
+
+
+  <div class="navbar">
+    <i class="saddress-card"></i>
+    <a href="index.html"> <i class="fas fa-home"></i> דף הבית </a>
+    <a href="search.html"> <i class="fas fa-file-alt"></i> להזמנת חדר</a>
+    <a href="pool.html"> <i class="fas fa-swimming-pool"></i> בריכה&ספא</a>
+    <a href="kolinaries.html"> <i class="fas fa-wine-glass-alt"></i> קולינריה</a>
+    <a href="atractions.html"> <i class="fas fa-snowboarding"></i> אטרקציות מסביב</a>
+    <a href="ways.html"> <i class="fas fa-car-side"></i> דרכי הגעה</a>
+    <a href="paymant.html"> <i class="fas fa-sync-alt fa-spin"></i> מדיניות ותשלומים</a>
+    <a href="login.html"> <i class="fas fa-user"></i> התחברות|הרשמה </a>
+
+  </div>
+  </nav>
+  <a id="my1" href="myorder.html"><i class="fas fa-arrow-alt-circle-left"></i> <br> למעבר להזמנות שלי</a> <br>
+  <div id="p"> לקוח יקר<br>עליך למלא את הפרטים ולאחר מכן לבחור את סוג החדר המועדף עליך😎😎</div>
+
+  <main>
+    <h2> </h2>
+    <form class="form">
+      <div class="personal-details">
+        <h2><i class="fas fa-file-alt"></i> פרטים אישיים</h2>
+        <label for="name">שם פרטי </label>
+        <br>
+        <input class="input" type="text" id="name" name="name" placeholder="שם פרטי בלבד" required autofocus>
+        <br>
+        <label for="last name">שם משפחה </label>
+        <br>
+        <input class="input" type="text" id="name" name="name" placeholder="שם משפחה" required autofocus>
+        <br>
+        <label for="date of birth">תאריך לידה</label>
+        <br>
+        <input class="input" type="date" id="Date of birth" name="תאריך לידה" required autofocus>
+        <br>
+        <label for="email">אמייל </label>
+        <br>
+        <input class="input" type="email" id="email" name="email" placeholder="example@domain.com" required autofocus>
+        <br>
+        <label for="Telefone"> טלפון</label>
+        <br>
+        <input class="input" type="text" id="Telefone" name="Telephone" placeholder="123-4567890"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+        <br>
+      </div>
+      <div class="tickets">
+        <h2> <i class="fas fa-calendar-alt"></i> תאריכים</h2>
+        <label for="amount">החל מתאריך: </label>
+        <input class="input" type="date" id="Date of birth" name="תאריך לידה" required autofocus>
+        <br>
+        <br>
+        <label for="amount">ועד לתאריך: </label>
+        <input class="input" type="date" id="Date of birth" name="תאריך לידה" required autofocus>
+
+      </div>
+      <div class="address">
+        <h2> <i class="fas fa-plus-circle fa-beat"></i> מידע רפואי</h2>
+        <h4> בעל מחלות רקע?</h4>
+        <section class="health">
+          <input class="input" type="radio" name="health" id="yes" value="yes">
+          <label for="yes">כן</label>
+
+          <input class="input" type="radio" name="health" id="no" value="no">
+          <label for="no">לא</label>
+
+
+        </section>
+        <br> קיימת רגישות למאכל מסוים? אם כן, פרט: <br><br>
+        <section class="food">
+          <input class="input" type="radio" name="food" id="g" value="g">
+          <label for="g">גלוטן</label>
+
+          <input class="input" type="radio" name="food" id="m" value="m">
+          <label for="m">מוצרי חלב</label>
+          <input class="input" type="radio" name="food" id="f" value="f">
+          <label for="f"> דגים</label> <br>
+          <input class="input" type="radio" name="food" id="b" value="b">
+          <label for="b">בוטנים </label>
+          <input class="input" type="radio" name="food" id="t" value="t">
+          <label for="t">תרופות</label>
+      </div>
+      <div class="card-details">
+        <h2> <i class="fas fa-credit-card"></i> פרטי כרטיס אשראי</h2>
+        <h4>סוג הכרטיס</h4>
+        <section class="card type">
+          <input class="input" type="radio" name="card" id="visa" value="visa">
+          <label for="visa">VISA</label>
+
+          <input class="input" type="radio" name="card" id="Mastercard" value="Mastercard">
+          <label for="Mastercard">Mastercard</label>
+
+          <input class="input" type="radio" name="card" id="AMEX" value="AMEX">
+          <label for="AMEX">AMEX</label>
+        </section>
+        <br>
+        <label for="Name">שם מלא</label>
+        <br>
+        <input class="input" type="text" name="Name" id="Name" placeholder="השם שמופיע על גבי הכרטיס" required
+          autofocus>
+        <br>
+        <label for="Card number">מספר הכרטיס</label>
+        <br>
+        <input class="input" type="text" name="card number" id="card number" value="">
+        <br>
+        <label for="security">קוד אימות</label>
+        <br>
+        <input class="input" type="text" name="security" id="security" value="">
+        <br>
+        <label for="Expiry Date">תאריך תפוגה</label>
+        <br>
+        <input class="input" type="date" name="Expiry Date" id="Expiry Date" min=03/06/2022>
+      </div>
+
+    </form>
+    <!-- <button type="submit">לשליחת הטופס</button> <br> -->
+    <button id="s">סוויטה </button>
+    <button id="z">חדר זוגי </button>
+    <button id="m5">חדר משפחתי </button>
+    <!-- <button id="order" class="myButton place-order">הזמן כעת</button> -->
+  </main>
+
+
+  <div id="typeroom"></div>
+</body>
+<script src="jquery.js"></script>
+<script src="orderooms.js"></script>
+
+</html>
